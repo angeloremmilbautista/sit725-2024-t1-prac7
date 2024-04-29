@@ -1,0 +1,25 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.4.1",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "mocha": "^4.1.0",
+    "mongodb": "^6.5.0",
+    "monodb": "^1.5.1",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
